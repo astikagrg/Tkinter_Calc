@@ -24,7 +24,7 @@ def button_cal(number):
 def button_eq():
     val = str(e.get())  # converts the value of entry to string and stores it
     ans = eval(val)     # evaluates the answer of value stored in val
-    e.delete(0,ans)     # deletes the value in entry
+    e.delete(0,END)     # deletes the value in entry
     e.insert(0, ans)    # inserts the value of ans in entry
 
 # function to clear the screen
