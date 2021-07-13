@@ -15,11 +15,11 @@ A simple calculator using Tkinter, that is capable of doing simple mathematical 
 
 ### Future Goals <br>
 
--Adding backspace function can be done to erase single value from the screen
--function can be added for calculating inverse 
--trigonometric operations can be added (sin, cos tan)
--function can be added for matrix calculations
--log functions can be added
+-Adding backspace function can be done to erase single value from the screen<br>
+-function can be added for calculating inverse <br>
+-trigonometric operations can be added (sin, cos tan)<br>
+-function can be added for matrix calculations<br>
+-log functions can be added<br>
 
 
 
