@@ -2,7 +2,7 @@
 
 ### Introduction
 <p>
-<img src="https://imgur.com/Tj1Vjt5.png">
+<img src="https://imgur.com/Tj1Vjt5.png"><br>
 A simple calculator using Tkinter, that is capable of doing simple mathematical calculations
 </p>
 ### Features
@@ -12,14 +12,16 @@ A simple calculator using Tkinter, that is capable of doing simple mathematical 
 -floor divisions can also be performed by pressing ``(/)`` button twice. <br>
 -The calculator is also capable of performing decimal calculations. <br>
 -Can store previous data and perform mathematical on them <br>
+</p>
 
 ### Future Goals <br>
-
+<p>
 -Adding backspace function can be done to erase single value from the screen<br>
 -function can be added for calculating inverse <br>
 -trigonometric operations can be added (sin, cos tan)<br>
 -function can be added for matrix calculations<br>
 -log functions can be added<br>
+</p>
 
 
 
