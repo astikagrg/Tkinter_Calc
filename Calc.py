@@ -24,27 +24,24 @@ def button_cal(number):
 def button_eq():
     val = str(e.get())  # converts the value of entry to string and stores it
     ans = eval(val)     # evaluates the answer of value stored in val
-    e.delete(0, END)    # deletes the value in entry
+    e.delete(0,ans)     # deletes the value in entry
     e.insert(0, ans)    # inserts the value of ans in entry
 
 # function to clear the screen
 def button_clear():
     e.delete(0, END)  # clears the entry in the screen
 
-a=PhotoImage(file='C:/Users/buddha/Pictures/Softwarica/galax.ico ')
-my_image=a.subsample(5, 5)
-
 # Defining the buttons
-button_0 = Button(root, text='0', command=lambda : button_cal(0) , image=my_image,  font=('Gungsuh', 30), fg='hot pink', bg='black', )
-button_1 = Button(root, text='1', command=lambda : button_cal(1), font=('Gungsuh', 30), fg='hot pink',bg='black', )
-button_2 = Button(root, text='2', command=lambda : button_cal(2), font=('Gungsuh', 30), fg='hot pink' , bg='black',)
-button_3 = Button(root, text='3', command=lambda : button_cal(3), font=('Gungsuh', 30),  fg='hot pink', bg='black',)
-button_4 = Button(root, text='4', command=lambda : button_cal(4), font=('Gungsuh', 30), fg='hot pink',  bg='black',)
-button_5 = Button(root, text='5', command=lambda : button_cal(5), font=('Gungsuh', 30),  fg='hot pink', bg='black', )
-button_6 = Button(root, text='6', command=lambda : button_cal(6), font=('Gungsuh', 30),  fg='hot pink', bg='black', )
-button_7 = Button(root, text='7', command=lambda : button_cal(7), font=('Gungsuh', 30), fg='hot pink' , bg='black', )
-button_8 = Button(root, text='8', command=lambda : button_cal(8), font=('Gungsuh', 30),  fg='hot pink', bg='black', )
-button_9 = Button(root, text='9', command=lambda : button_cal(9), font=('Gungsuh', 30),  fg='hot pink' , bg='black',)
+button_0 = Button(root, text='0', command=lambda : button_cal(0) , font=('Gungsuh', 30), fg='hot pink', bg='black', activeforeground='white' , activebackground='black')
+button_1 = Button(root, text='1', command=lambda : button_cal(1), font=('Gungsuh', 30), fg='hot pink',bg='black', activeforeground='white' , activebackground='black')
+button_2 = Button(root, text='2', command=lambda : button_cal(2), font=('Gungsuh', 30), fg='hot pink' , bg='black', activeforeground='white' , activebackground='black' )
+button_3 = Button(root, text='3', command=lambda : button_cal(3), font=('Gungsuh', 30),  fg='hot pink', bg='black', activeforeground='white' , activebackground='black')
+button_4 = Button(root, text='4', command=lambda : button_cal(4), font=('Gungsuh', 30), fg='hot pink',  bg='black', activeforeground='white' , activebackground='black')
+button_5 = Button(root, text='5', command=lambda : button_cal(5), font=('Gungsuh', 30),  fg='hot pink', bg='black', activeforeground='white' , activebackground='black')
+button_6 = Button(root, text='6', command=lambda : button_cal(6), font=('Gungsuh', 30),  fg='hot pink', bg='black', activeforeground='white' , activebackground='black')
+button_7 = Button(root, text='7', command=lambda : button_cal(7), font=('Gungsuh', 30), fg='hot pink' , bg='black', activeforeground='white' , activebackground='black')
+button_8 = Button(root, text='8', command=lambda : button_cal(8), font=('Gungsuh', 30),  fg='hot pink', bg='black', activeforeground='white' , activebackground='black')
+button_9 = Button(root, text='9', command=lambda : button_cal(9), font=('Gungsuh', 30),  fg='hot pink' , bg='black',activeforeground='white' , activebackground='black')
 button_dec = Button(root, text='.', command=lambda : button_cal('.'), font=('Gungsuh', 30), fg='hot pink' ,bg='black', )
 button_add = Button(root, text='+', command=lambda : button_cal('+'), font=('Gungsuh', 30), fg='hot pink' , bg='black',)
 button_sub = Button(root, text='-', command=lambda : button_cal('-'), font=('Gungsuh', 30), fg='hot pink' , bg='black',)

@@ -1,28 +1,21 @@
-# Tkinter Calculator
-hello
+# Simple calculator
 
-# flower 
+### Introduction
+A simple calculator using Tkinter, that is capable of doing simple mathematical calculations
+### Features
 
-hiiii
+--The program is capable of doing simple mathematical calculations like addition, subtraction, multiplication and division. <br>
+--The program can also do calculations like mod , exponent and floor divisions. <br>
+--The calculator is also capable of performing decimal calculations. <br>
 
-_hello_
+### Future Goals
+--Adding backspace function can be done to  
 
-**this is bold**
 
-~~This is italic~~
 
-[apple](https://github.com/PreranaPandit/ComprehensiveRetailSolution)
 
-<img src="C:/Users/buddha/Desktop/astika/softwarica/lab/cal.ico" height="20" align="right">
-<img src="https://i.imgur.com/kICNl9H.png">
-hjghyffv
-acb jaei heie iahdufhuh nsjdhfinacfhiaf hahdshfksjiju 
-<br>
-hkjhujhujbjkbjkjj
-hvjhvhyvhvuijnljjuuull
-i sdfjijisj99j
 
-<hr>
+
 
 
 
