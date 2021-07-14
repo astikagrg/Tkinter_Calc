@@ -24,8 +24,8 @@ A simple calculator using Tkinter, that is capable of doing simple mathematical 
 </p>
 
 Astika Gurung<br>
-Student id: 210285<br>
-30 <br>
+Student id: **210285** <br>
+batch: **30 B**<br>
 
 
 
