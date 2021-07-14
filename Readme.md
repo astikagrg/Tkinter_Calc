@@ -23,7 +23,9 @@ A simple calculator using Tkinter, that is capable of doing simple mathematical 
 -log functions can be added<br>
 </p>
 
-
+Astika Gurung<br>
+Student id: 210285<br>
+30 <br>
 
 
 
