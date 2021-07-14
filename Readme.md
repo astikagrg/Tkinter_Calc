@@ -5,6 +5,7 @@
 <img src="https://imgur.com/Tj1Vjt5.png"><br>
 A simple calculator using Tkinter, that is capable of doing simple mathematical calculations
 </p>
+
 ### Features
 <p>
 -The program is capable of doing simple mathematical calculations like addition, subtraction, multiplication and division. <br>
