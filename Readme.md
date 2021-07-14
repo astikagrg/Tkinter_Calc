@@ -6,7 +6,7 @@
 A simple calculator using Tkinter, that is capable of doing simple mathematical calculations
 </p>
 
-### Features
+### Features <br>
 <p>
 -The program is capable of doing simple mathematical calculations like addition, subtraction, multiplication and division. <br>
 -The program can also do calculations like mod , exponent.<br> 
