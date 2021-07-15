@@ -1,8 +1,9 @@
 # Simple calculator
 
-### Introduction
+
 <p>
 <img src="https://imgur.com/Tj1Vjt5.png"><br>
+### Introduction  
 A simple calculator using Tkinter, that is capable of doing simple mathematical calculations
 </p>
 
