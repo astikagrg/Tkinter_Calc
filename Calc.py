@@ -1,6 +1,7 @@
 from tkinter import *
 from PIL import ImageTk, Image
 from _ast import Lambda
+
 root = Tk()
 root.configure(bg='black')
 
@@ -22,8 +23,12 @@ def button_cal(number):
 
 # Function for equals to
 def button_eq():
-    val = str(e.get())  # converts the value of entry to string and stores it
-    ans = eval(val)     # evaluates the answer of value stored in val
+   try:
+        val = str(e.get())  # converts the value of entry to string and stores it
+        ans = eval(val)     # evaluates the answer of value stored in val
+   except:
+    ans = "Error"
+   finally:
     e.delete(0,END)     # deletes the value in entry
     e.insert(0, ans)    # inserts the value of ans in entry
 
